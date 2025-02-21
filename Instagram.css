@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.instagram-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.instagram-content {
+    display: flex;
+    align-items: center;
+}
+
+.instagram-image img {
+    height: 500px;
+}
+
+.instagram-box {
+    background: white;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    width: 350px;
+}
+
+.instagram-logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+.instagram-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.instagram-form button {
+    width: 100%;
+    background: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.or {
+    margin: 15px 0;
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+.fb-login {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.signup-box p {
+    font-size: 14px;
+}
+
+.signup-box a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.get-app p {
+    margin-top: 15px;
+}
+
+.get-app img {
+    width: 135px;
+    margin: 5px;
+}
